@@ -17,11 +17,14 @@ import SwiftUI
 
 @main
 struct ToDoListApp: App {
+    @StateObject var listViewModel: ListViewModel = ListViewModel()
     var body: some Scene {
         WindowGroup {
             NavigationView{  //wraps all of the views with a nav view
                 ListView()
             }
+            .navigationViewStyle(StackNavigationViewStyle())
+            .environmentObject(listViewModel)
         }
     }
 }
