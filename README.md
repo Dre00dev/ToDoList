@@ -3,5 +3,5 @@ Creating an MVVM ToDoList for practice
 
 
 
-https://github.com/Dre00dev/ToDoList/assets/109707956/cbc90d66-bd8d-4716-a352-d63e2d6fc42e
 
+![todolist](https://github.com/Dre00dev/ToDoList/assets/109707956/e9ed5754-f296-47e2-a774-fc072ad68956)
